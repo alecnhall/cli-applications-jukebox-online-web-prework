@@ -38,7 +38,7 @@ def list(songs)
   songs.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
 end
 
-# list(songs)
+list(songs)
 
 def play(songs)
   puts "Please enter a song name or number:"
